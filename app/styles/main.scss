@@ -1,1 +1,32 @@
 @import "compass_twitter_bootstrap";
+
+.media {
+	overflow: hidden;
+	background-color: green;	
+	
+	.img { 
+		float: left;
+		margin-right: 10%;
+		padding: 10px;
+		background-color: yellow;
+	}
+
+	.text {
+		overflow: hidden;
+		background-color: red;
+	}
+
+	&.alt {
+		.img {
+			float: right;
+			margin-left: 5%;
+			margin-right: 0;
+		}
+	}
+
+	&.small {
+		font-size: 0.8em;
+		line-height: 1.4;
+	}
+}
+
